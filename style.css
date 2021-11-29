@@ -1,0 +1,127 @@
+/* CSS Reset */
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Global Style */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+main{
+    margin-top: 78px;
+}
+
+section {
+    min-height: 90vh;
+}
+
+.layanan, .about, .kontak {
+    padding: 100px;
+}
+
+.section-title {
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+/* Header */
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+}
+
+header h1 {
+    float: left;
+}
+
+/* Navigasi Menu */
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.banner {
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.banner img {
+    margin: 10px auto;
+}
+
+
+.product {
+    text-align: center;
+    padding: auto;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.banner img {
+    margin: 10px;
+}
+
+.product {
+    background: cornsilk;
+    color: darkgray;
+    
+}
+
+.product .wrapper {
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
